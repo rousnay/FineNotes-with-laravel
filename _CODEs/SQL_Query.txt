@@ -1,2 +1,6 @@
 // Run a initial command to create the tables
 > php artisan migrate
+
+// install breeze package for authentication and authorization
+> composer require laravel/breeze --dev
+> php artisan breeze:install
